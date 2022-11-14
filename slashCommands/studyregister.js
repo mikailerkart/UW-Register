@@ -189,6 +189,7 @@ module.exports = {
                     member.roles.add(dokuzrol);
                     member.roles.remove(unregisterrol);
                     member.roles.remove(studyregisterrol);
+                    member.setNickname(null);
 
                     await interaction.guild.channels.cache.find(c => c.name.toLowerCase() == "study-chat").send(`${member} Sunucumuza hoş geldin <3.`)
 
@@ -205,6 +206,7 @@ module.exports = {
                     member.roles.add(onrol);
                     member.roles.remove(unregisterrol);
                     member.roles.remove(studyregisterrol);
+                    member.setNickname(null);
 
                     await interaction.guild.channels.cache.find(c => c.name.toLowerCase() == "study-chat").send(`${member} Sunucumuza hoş geldin <3.`)
 
@@ -221,6 +223,7 @@ module.exports = {
                     member.roles.add(onbirrol);
                     member.roles.remove(unregisterrol);
                     member.roles.remove(studyregisterrol);
+                    member.setNickname(null);
     
                     await interaction.guild.channels.cache.find(c => c.name.toLowerCase() == "study-chat").send(`${member} Sunucumuza hoş geldin <3.`)
     
@@ -237,6 +240,7 @@ module.exports = {
                     member.roles.add(onikirrol);
                     member.roles.remove(unregisterrol);
                     member.roles.remove(studyregisterrol);
+                    member.setNickname(null);
     
                     await interaction.guild.channels.cache.find(c => c.name.toLowerCase() == "study-chat").send(`${member} Sunucumuza hoş geldin <3.`)
     
@@ -253,6 +257,7 @@ module.exports = {
                     member.roles.add(mezunrol);
                     member.roles.remove(unregisterrol);
                     member.roles.remove(studyregisterrol);
+                    member.setNickname(null);
         
                     await interaction.guild.channels.cache.find(c => c.name.toLowerCase() == "study-chat").send(`${member} Sunucumuza hoş geldin <3.`)
         
@@ -269,6 +274,7 @@ module.exports = {
                     member.roles.add(ünirol);
                     member.roles.remove(unregisterrol);
                     member.roles.remove(studyregisterrol);
+                    member.setNickname(null);
             
                     await interaction.guild.channels.cache.find(c => c.name.toLowerCase() == "study-chat").send(`${member} Sunucumuza hoş geldin <3.`)
             
@@ -300,6 +306,7 @@ module.exports = {
                         member.roles.add(dokuzrol);
                         member.roles.remove(unregisterrol);
                         member.roles.remove(studyregisterrol);
+                        member.setNickname(null);
     
                         await interaction.guild.channels.cache.find(c => c.name.toLowerCase() == "study-chat").send(`${member} Sunucumuza hoş geldin <3.`)
     
@@ -316,6 +323,7 @@ module.exports = {
                         member.roles.add(onrol);
                         member.roles.remove(unregisterrol);
                         member.roles.remove(studyregisterrol);
+                        member.setNickname(null);
     
                         await interaction.guild.channels.cache.find(c => c.name.toLowerCase() == "study-chat").send(`${member} Sunucumuza hoş geldin <3.`)
     
@@ -332,6 +340,7 @@ module.exports = {
                         member.roles.add(onbirrol);
                         member.roles.remove(unregisterrol);
                         member.roles.remove(studyregisterrol);
+                        member.setNickname(null);
         
                         await interaction.guild.channels.cache.find(c => c.name.toLowerCase() == "study-chat").send(`${member} Sunucumuza hoş geldin <3.`)
         
@@ -348,6 +357,7 @@ module.exports = {
                         member.roles.add(onikirrol);
                         member.roles.remove(unregisterrol);
                         member.roles.remove(studyregisterrol);
+                        member.setNickname(null);
         
                         await interaction.guild.channels.cache.find(c => c.name.toLowerCase() == "study-chat").send(`${member} Sunucumuza hoş geldin <3.`)
         
@@ -363,6 +373,7 @@ module.exports = {
                         member.roles.add(studentrol);
                         member.roles.add(mezunrol);
                         member.roles.remove(unregisterrol);
+                        member.setNickname(null);
             
                         await interaction.guild.channels.cache.find(c => c.name.toLowerCase() == "study-chat").send(`${member} Sunucumuza hoş geldin <3.`)
             
@@ -379,6 +390,7 @@ module.exports = {
                         member.roles.add(ünirol);
                         member.roles.remove(unregisterrol);
                         member.roles.remove(studyregisterrol);
+                        member.setNickname(null);
                 
                         await interaction.guild.channels.cache.find(c => c.name.toLowerCase() == "study-chat").send(`${member} Sunucumuza hoş geldin <3.`)
                 
@@ -408,6 +420,7 @@ module.exports = {
                         member.roles.add(dokuzrol);
                         member.roles.remove(unregisterrol);
                         member.roles.remove(studyregisterrol);
+                        member.setNickname(null);
     
                         await interaction.guild.channels.cache.find(c => c.name.toLowerCase() == "study-chat").send(`${member} Sunucumuza hoş geldin <3.`)
     
@@ -424,6 +437,7 @@ module.exports = {
                         member.roles.add(onrol);
                         member.roles.remove(unregisterrol);
                         member.roles.remove(studyregisterrol);
+                        member.setNickname(null);
     
                         await interaction.guild.channels.cache.find(c => c.name.toLowerCase() == "study-chat").send(`${member} Sunucumuza hoş geldin <3.`)
     
@@ -440,6 +454,7 @@ module.exports = {
                         member.roles.add(onbirrol);
                         member.roles.remove(unregisterrol);
                         member.roles.remove(studyregisterrol);
+                        member.setNickname(null);
         
                         await interaction.guild.channels.cache.find(c => c.name.toLowerCase() == "study-chat").send(`${member} Sunucumuza hoş geldin <3.`)
         
@@ -456,6 +471,7 @@ module.exports = {
                         member.roles.add(onikirrol);
                         member.roles.remove(unregisterrol);
                         member.roles.remove(studyregisterrol);
+                        member.setNickname(null);
         
                         await interaction.guild.channels.cache.find(c => c.name.toLowerCase() == "study-chat").send(`${member} Sunucumuza hoş geldin <3.`)
         
@@ -471,6 +487,7 @@ module.exports = {
                         member.roles.add(studentrol);
                         member.roles.add(ünirol);
                         member.roles.remove(unregisterrol);
+                        member.setNickname(null);
                 
                         await interaction.guild.channels.cache.find(c => c.name.toLowerCase() == "study-chat").send(`${member} Sunucumuza hoş geldin <3.`)
                 
@@ -500,6 +517,7 @@ module.exports = {
                         member.roles.add(dokuzrol);
                         member.roles.remove(unregisterrol);
                         member.roles.remove(studyregisterrol);
+                        member.setNickname(null);
     
                         await interaction.guild.channels.cache.find(c => c.name.toLowerCase() == "study-chat").send(`${member} Sunucumuza hoş geldin <3.`)
     
@@ -516,6 +534,7 @@ module.exports = {
                         member.roles.add(onrol);
                         member.roles.remove(unregisterrol);
                         member.roles.remove(studyregisterrol);
+                        member.setNickname(null);
     
                         await interaction.guild.channels.cache.find(c => c.name.toLowerCase() == "study-chat").send(`${member} Sunucumuza hoş geldin <3.`)
     
@@ -532,6 +551,7 @@ module.exports = {
                         member.roles.add(onbirrol);
                         member.roles.remove(unregisterrol);
                         member.roles.remove(studyregisterrol);
+                        member.setNickname(null);
         
                         await interaction.guild.channels.cache.find(c => c.name.toLowerCase() == "study-chat").send(`${member} Sunucumuza hoş geldin <3.`)
         
@@ -548,6 +568,7 @@ module.exports = {
                         member.roles.add(onikirrol);
                         member.roles.remove(unregisterrol);
                         member.roles.remove(studyregisterrol);
+                        member.setNickname(null);
         
                         await interaction.guild.channels.cache.find(c => c.name.toLowerCase() == "study-chat").send(`${member} Sunucumuza hoş geldin <3.`)
         
@@ -564,6 +585,7 @@ module.exports = {
                         member.roles.add(onikirrol);
                         member.roles.remove(unregisterrol);
                         member.roles.remove(studyregisterrol);
+                        member.setNickname(null);
                 
                         await interaction.guild.channels.cache.find(c => c.name.toLowerCase() == "study-chat").send(`${member} Sunucumuza hoş geldin <3.`)
                 

@@ -88,6 +88,7 @@ client.on('guildMemberAdd', async (member) => {
     if (!role) return;
 
     member.roles.add(role)
+    member.setNickname("Kayıtsız")
 
 });
 

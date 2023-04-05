@@ -149,7 +149,7 @@ module.exports = {
                     .setTimestamp()
 
 
-                await interaction.guild.channels.cache.find(c => c.name.toLowerCase() == "underworld-study-chat").send(`${member} Sunucumuza hoş geldin <3.`)
+                await interaction.guild.channels.cache.find(c => c.name.toLowerCase() == "underworld-chat").send(`${member} Sunucumuza hoş geldin <3.`)
 
                 await interaction.guild.channels.cache.find(c => c.name.toLowerCase() == "kayıt-log").send({embeds: [eembed]})
 
@@ -171,7 +171,7 @@ module.exports = {
                 .setColor('#007fff')
                 .setTimestamp()
 
-                await interaction.guild.channels.cache.find(c => c.name.toLowerCase() == "underworld-study-chat").send(`${member} Sunucumuza hoş geldin <3.`)
+                await interaction.guild.channels.cache.find(c => c.name.toLowerCase() == "underworld-chat").send(`${member} Sunucumuza hoş geldin <3.`)
 
                 await interaction.guild.channels.cache.find(c => c.name.toLowerCase() == "kayıt-log").send({embeds: [kembed]})
 

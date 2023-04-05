@@ -189,7 +189,7 @@ module.exports = {
                     member.roles.remove(unregisterrol);
                     member.setNickname(null);
 
-                    await interaction.guild.channels.cache.find(c => c.name.toLowerCase() == "underworld-study-chat").send(`${member} Sunucumuza hoş geldin <3.`)
+                    await interaction.guild.channels.cache.find(c => c.name.toLowerCase() == "underworld-chat").send(`${member} Sunucumuza hoş geldin <3.`)
 
                     await interaction.guild.channels.cache.find(c => c.name.toLowerCase() == "kayıt-log").send({embeds: [teembed]})
 
@@ -205,7 +205,7 @@ module.exports = {
                     member.roles.remove(unregisterrol);
                     member.setNickname(null);
 
-                    await interaction.guild.channels.cache.find(c => c.name.toLowerCase() == "underworld-study-chat").send(`${member} Sunucumuza hoş geldin <3.`)
+                    await interaction.guild.channels.cache.find(c => c.name.toLowerCase() == "underworld-chat").send(`${member} Sunucumuza hoş geldin <3.`)
 
                     await interaction.guild.channels.cache.find(c => c.name.toLowerCase() == "kayıt-log").send({embeds: [teembed]})
 
@@ -221,7 +221,7 @@ module.exports = {
                     member.roles.remove(unregisterrol);
                     member.setNickname(null);
     
-                    await interaction.guild.channels.cache.find(c => c.name.toLowerCase() == "underworld-study-chat").send(`${member} Sunucumuza hoş geldin <3.`)
+                    await interaction.guild.channels.cache.find(c => c.name.toLowerCase() == "underworld-chat").send(`${member} Sunucumuza hoş geldin <3.`)
     
                     await interaction.guild.channels.cache.find(c => c.name.toLowerCase() == "kayıt-log").send({embeds: [teembed]})
     
@@ -237,7 +237,7 @@ module.exports = {
                     member.roles.remove(unregisterrol);
                     member.setNickname(null);
     
-                    await interaction.guild.channels.cache.find(c => c.name.toLowerCase() == "underworld-study-chat").send(`${member} Sunucumuza hoş geldin <3.`)
+                    await interaction.guild.channels.cache.find(c => c.name.toLowerCase() == "underworld-chat").send(`${member} Sunucumuza hoş geldin <3.`)
     
                     await interaction.guild.channels.cache.find(c => c.name.toLowerCase() == "kayıt-log").send({embeds: [teembed]})
     
@@ -253,7 +253,7 @@ module.exports = {
                     member.roles.remove(unregisterrol);
                     member.setNickname(null);
         
-                    await interaction.guild.channels.cache.find(c => c.name.toLowerCase() == "underworld-study-chat").send(`${member} Sunucumuza hoş geldin <3.`)
+                    await interaction.guild.channels.cache.find(c => c.name.toLowerCase() == "underworld-chat").send(`${member} Sunucumuza hoş geldin <3.`)
         
                     await interaction.guild.channels.cache.find(c => c.name.toLowerCase() == "kayıt-log").send({embeds: [teembed]})
                     
@@ -269,7 +269,7 @@ module.exports = {
                     member.roles.remove(unregisterrol);
                     member.setNickname(null);
             
-                    await interaction.guild.channels.cache.find(c => c.name.toLowerCase() == "underworld-study-chat").send(`${member} Sunucumuza hoş geldin <3.`)
+                    await interaction.guild.channels.cache.find(c => c.name.toLowerCase() == "underworld-chat").send(`${member} Sunucumuza hoş geldin <3.`)
             
                     await interaction.guild.channels.cache.find(c => c.name.toLowerCase() == "kayıt-log").send({embeds: [teembed]})
                     
@@ -300,7 +300,7 @@ module.exports = {
                         member.roles.remove(unregisterrol);
                         member.setNickname(null);
     
-                        await interaction.guild.channels.cache.find(c => c.name.toLowerCase() == "underworld-study-chat").send(`${member} Sunucumuza hoş geldin <3.`)
+                        await interaction.guild.channels.cache.find(c => c.name.toLowerCase() == "underworld-chat").send(`${member} Sunucumuza hoş geldin <3.`)
     
                         await interaction.guild.channels.cache.find(c => c.name.toLowerCase() == "kayıt-log").send({embeds: [tkembed]})
     
@@ -316,7 +316,7 @@ module.exports = {
                         member.roles.remove(unregisterrol);
                         member.setNickname(null);
     
-                        await interaction.guild.channels.cache.find(c => c.name.toLowerCase() == "underworld-study-chat").send(`${member} Sunucumuza hoş geldin <3.`)
+                        await interaction.guild.channels.cache.find(c => c.name.toLowerCase() == "underworld-chat").send(`${member} Sunucumuza hoş geldin <3.`)
     
                         await interaction.guild.channels.cache.find(c => c.name.toLowerCase() == "kayıt-log").send({embeds: [tkembed]})
 
@@ -332,7 +332,7 @@ module.exports = {
                         member.roles.remove(unregisterrol);
                         member.setNickname(null);
         
-                        await interaction.guild.channels.cache.find(c => c.name.toLowerCase() == "underworld-study-chat").send(`${member} Sunucumuza hoş geldin <3.`)
+                        await interaction.guild.channels.cache.find(c => c.name.toLowerCase() == "underworld-chat").send(`${member} Sunucumuza hoş geldin <3.`)
         
                         await interaction.guild.channels.cache.find(c => c.name.toLowerCase() == "kayıt-log").send({embeds: [tkembed]})
 
@@ -348,7 +348,7 @@ module.exports = {
                         member.roles.remove(unregisterrol);
                         member.setNickname(null);
         
-                        await interaction.guild.channels.cache.find(c => c.name.toLowerCase() == "underworld-study-chat").send(`${member} Sunucumuza hoş geldin <3.`)
+                        await interaction.guild.channels.cache.find(c => c.name.toLowerCase() == "underworld-chat").send(`${member} Sunucumuza hoş geldin <3.`)
         
                         await interaction.guild.channels.cache.find(c => c.name.toLowerCase() == "kayıt-log").send({embeds: [tkembed]})
 
@@ -363,7 +363,7 @@ module.exports = {
                         member.roles.add(mezunrol);
                         member.setNickname(null);
             
-                        await interaction.guild.channels.cache.find(c => c.name.toLowerCase() == "underworld-study-chat").send(`${member} Sunucumuza hoş geldin <3.`)
+                        await interaction.guild.channels.cache.find(c => c.name.toLowerCase() == "underworld-chat").send(`${member} Sunucumuza hoş geldin <3.`)
             
                         await interaction.guild.channels.cache.find(c => c.name.toLowerCase() == "kayıt-log").send({embeds: [tkembed]})
 
@@ -379,7 +379,7 @@ module.exports = {
                         member.roles.remove(unregisterrol);
                         member.setNickname(null);
                 
-                        await interaction.guild.channels.cache.find(c => c.name.toLowerCase() == "underworld-study-chat").send(`${member} Sunucumuza hoş geldin <3.`)
+                        await interaction.guild.channels.cache.find(c => c.name.toLowerCase() == "underworld-chat").send(`${member} Sunucumuza hoş geldin <3.`)
                 
                         await interaction.guild.channels.cache.find(c => c.name.toLowerCase() == "kayıt-log").send({embeds: [tkembed]})
 
@@ -408,7 +408,7 @@ module.exports = {
                         member.roles.remove(unregisterrol);
                         member.setNickname(null);
     
-                        await interaction.guild.channels.cache.find(c => c.name.toLowerCase() == "underworld-study-chat").send(`${member} Sunucumuza hoş geldin <3.`)
+                        await interaction.guild.channels.cache.find(c => c.name.toLowerCase() == "underworld-chat").send(`${member} Sunucumuza hoş geldin <3.`)
     
                         await interaction.guild.channels.cache.find(c => c.name.toLowerCase() == "kayıt-log").send({embeds: [aeembed]})
 
@@ -424,7 +424,7 @@ module.exports = {
                         member.roles.remove(unregisterrol);
                         member.setNickname(null);
     
-                        await interaction.guild.channels.cache.find(c => c.name.toLowerCase() == "underworld-study-chat").send(`${member} Sunucumuza hoş geldin <3.`)
+                        await interaction.guild.channels.cache.find(c => c.name.toLowerCase() == "underworld-chat").send(`${member} Sunucumuza hoş geldin <3.`)
     
                         await interaction.guild.channels.cache.find(c => c.name.toLowerCase() == "kayıt-log").send({embeds: [aeembed]})
 
@@ -440,7 +440,7 @@ module.exports = {
                         member.roles.remove(unregisterrol);
                         member.setNickname(null);
         
-                        await interaction.guild.channels.cache.find(c => c.name.toLowerCase() == "underworld-study-chat").send(`${member} Sunucumuza hoş geldin <3.`)
+                        await interaction.guild.channels.cache.find(c => c.name.toLowerCase() == "underworld-chat").send(`${member} Sunucumuza hoş geldin <3.`)
         
                         await interaction.guild.channels.cache.find(c => c.name.toLowerCase() == "kayıt-log").send({embeds: [aeembed]})
         
@@ -456,7 +456,7 @@ module.exports = {
                         member.roles.remove(unregisterrol);
                         member.setNickname(null);
         
-                        await interaction.guild.channels.cache.find(c => c.name.toLowerCase() == "underworld-study-chat").send(`${member} Sunucumuza hoş geldin <3.`)
+                        await interaction.guild.channels.cache.find(c => c.name.toLowerCase() == "underworld-chat").send(`${member} Sunucumuza hoş geldin <3.`)
         
                         await interaction.guild.channels.cache.find(c => c.name.toLowerCase() == "kayıt-log").send({embeds: [aeembed]})
         
@@ -472,7 +472,7 @@ module.exports = {
                         member.roles.remove(unregisterrol);
                         member.setNickname(null);
                 
-                        await interaction.guild.channels.cache.find(c => c.name.toLowerCase() == "underworld-study-chat").send(`${member} Sunucumuza hoş geldin <3.`)
+                        await interaction.guild.channels.cache.find(c => c.name.toLowerCase() == "underworld-chat").send(`${member} Sunucumuza hoş geldin <3.`)
                 
                         await interaction.guild.channels.cache.find(c => c.name.toLowerCase() == "kayıt-log").send({embeds: [aeembed]})
 
@@ -501,7 +501,7 @@ module.exports = {
                         member.roles.remove(unregisterrol);
                         member.setNickname(null);
     
-                        await interaction.guild.channels.cache.find(c => c.name.toLowerCase() == "underworld-study-chat").send(`${member} Sunucumuza hoş geldin <3.`)
+                        await interaction.guild.channels.cache.find(c => c.name.toLowerCase() == "underworld-chat").send(`${member} Sunucumuza hoş geldin <3.`)
     
                         await interaction.guild.channels.cache.find(c => c.name.toLowerCase() == "kayıt-log").send({embeds: [akembed]})
 
@@ -517,7 +517,7 @@ module.exports = {
                         member.roles.remove(unregisterrol);
                         member.setNickname(null);
     
-                        await interaction.guild.channels.cache.find(c => c.name.toLowerCase() == "underworld-study-chat").send(`${member} Sunucumuza hoş geldin <3.`)
+                        await interaction.guild.channels.cache.find(c => c.name.toLowerCase() == "underworld-chat").send(`${member} Sunucumuza hoş geldin <3.`)
     
                         await interaction.guild.channels.cache.find(c => c.name.toLowerCase() == "kayıt-log").send({embeds: [akembed]})
 
@@ -533,7 +533,7 @@ module.exports = {
                         member.roles.remove(unregisterrol);
                         member.setNickname(null);
         
-                        await interaction.guild.channels.cache.find(c => c.name.toLowerCase() == "underworld-study-chat").send(`${member} Sunucumuza hoş geldin <3.`)
+                        await interaction.guild.channels.cache.find(c => c.name.toLowerCase() == "underworld-chat").send(`${member} Sunucumuza hoş geldin <3.`)
         
                         await interaction.guild.channels.cache.find(c => c.name.toLowerCase() == "kayıt-log").send({embeds: [akembed]})
         
@@ -549,7 +549,7 @@ module.exports = {
                         member.roles.remove(unregisterrol);
                         member.setNickname(null);
         
-                        await interaction.guild.channels.cache.find(c => c.name.toLowerCase() == "underworld-study-chat").send(`${member} Sunucumuza hoş geldin <3.`)
+                        await interaction.guild.channels.cache.find(c => c.name.toLowerCase() == "underworld-chat").send(`${member} Sunucumuza hoş geldin <3.`)
         
                         await interaction.guild.channels.cache.find(c => c.name.toLowerCase() == "kayıt-log").send({embeds: [akembed]})
         
@@ -565,7 +565,7 @@ module.exports = {
                         member.roles.remove(unregisterrol);
                         member.setNickname(null);
                 
-                        await interaction.guild.channels.cache.find(c => c.name.toLowerCase() == "underworld-study-chat").send(`${member} Sunucumuza hoş geldin <3.`)
+                        await interaction.guild.channels.cache.find(c => c.name.toLowerCase() == "underworld-chat").send(`${member} Sunucumuza hoş geldin <3.`)
                 
                         await interaction.guild.channels.cache.find(c => c.name.toLowerCase() == "kayıt-log").send({embeds: [akembed]})
                 

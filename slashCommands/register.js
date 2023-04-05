@@ -131,7 +131,6 @@ module.exports = {
             let erkekrol = interaction.guild.roles.cache.find(r => r.name.toLowerCase() == "xy");
             let kızrol = interaction.guild.roles.cache.find(r => r.name.toLowerCase() == "xx");
             let unregisterrol = interaction.guild.roles.cache.find(r => r.name.toLowerCase() == "unregister");
-            let publicregisterrol = interaction.guild.roles.cache.find(r => r.name.toLowerCase() == "👬");
     
             if (modalID === 'eModal'){
     
@@ -141,7 +140,6 @@ module.exports = {
                 member.roles.add(üyerol);
                 member.roles.add(erkekrol);
                 member.roles.remove(unregisterrol);
-                member.roles.remove(publicregisterrol);
                 member.setNickname(`${eisim} | ${eyaş}`);
 
                 var eembed = new EmbedBuilder()
@@ -165,7 +163,6 @@ module.exports = {
                 member.roles.add(üyerol);
                 member.roles.add(kızrol);
                 member.roles.remove(unregisterrol);
-                member.roles.remove(publicregisterrol);
                 member.setNickname(`${kisim} | ${kyaş}`);
 
                 var kembed = new EmbedBuilder()

@@ -140,7 +140,7 @@ module.exports = {
                 member.roles.add(üyerol);
                 member.roles.add(erkekrol);
                 member.roles.remove(unregisterrol);
-                member.setNickname(`◑ ${eisim} | ${eyaş}`);
+                member.setNickname(`⌁ ${eisim} | ${eyaş}`);
 
                 var eembed = new EmbedBuilder()
                     .setTitle(`Kayıt yapıldı`)
@@ -163,7 +163,7 @@ module.exports = {
                 member.roles.add(üyerol);
                 member.roles.add(kızrol);
                 member.roles.remove(unregisterrol);
-                member.setNickname(`◑ ${kisim} | ${kyaş}`);
+                member.setNickname(`⌁ ${kisim} | ${kyaş}`);
 
                 var kembed = new EmbedBuilder()
                 .setTitle(`Kayıt yapıldı`)

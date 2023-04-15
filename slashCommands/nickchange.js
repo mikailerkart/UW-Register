@@ -19,7 +19,11 @@ module.exports = {
                 .setRequired(true)),
 	async execute(client, interaction) {
 		
+        let role = await interaction.guild.roles.cache.find(r => r.name.toLowerCase() == "register staff")
+
         if (!interaction.member.roles.cache.has('944700546017804363')) return interaction.reply({ content: "Sen nick değiştiremezsin.", ephemeral: true});
+
+        if (member.roles.cache.has(role.id)) return interaction.reply("Bu kişi'nin nickini değiştiremezsin.");
 
         let member = await interaction.options.getMember("user");
 
@@ -27,6 +31,8 @@ module.exports = {
         const yaş = await interaction.options.getString("yaş");
 
         member.setNickname(`⌁ ${isim} | ${yaş}`)
+
+        await interaction.reply({content: "Nick başarıyla değiştirildi.", ephemeral: true});
 
 	},
 };
